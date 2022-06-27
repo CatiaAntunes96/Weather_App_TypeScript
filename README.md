@@ -16,4 +16,6 @@ And then run:
 npm start
 ```
 
-## Live app
+## Repository
+
+The code is available on [Github](https://github.com/CatiaAntunes96/Weather_App_TypeScript).

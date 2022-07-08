@@ -9,7 +9,7 @@ import InfoSection from "../Components/InfoSection";
 
 function WeatherGadget() {
   const [toggled, setToggled] = useState<boolean>(false);
-  const [searchValue, setSearchValue] = useState<string>("Lisboa");
+  const [searchValue, setSearchValue] = useState<string>("Lisbon");
   const [status, setStatus] = useState<string>("");
 
   const handleSearchValue = (event: React.ChangeEvent<HTMLSelectElement>) => {

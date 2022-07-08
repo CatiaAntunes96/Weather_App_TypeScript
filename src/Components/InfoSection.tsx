@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "../Style/InfoSection.css";
 import { DateTime } from "luxon";
-import { useFetchReducer } from "./UseReducerHook";
 import { KEY } from "../Constants/Constants";
 import ErrorSection from "./ErrorSection";
+import { useFetchReducer } from "./useReducerHook";
 
 type HoursOfSun = {
   sunrise: number;
@@ -77,7 +77,7 @@ function InfoSection({ searchValue, toggled, onChangeStatus }: SearchProps) {
         <ErrorSection message={state.error.message} />
       ) : null}
       {state.data ? (
-        <div className="infoWrapper">
+        <div>
           {toggled ? (
             <p className="temperature-info">{Math.ceil(fahrenheit)} ºF</p>
           ) : (

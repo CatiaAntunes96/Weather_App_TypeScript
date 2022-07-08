@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../Style/ErrorSection.css";
+import "../Style/InfoSection.css";
 
 type ErrorProps = {
   message: string;
@@ -9,7 +9,7 @@ type ErrorProps = {
 function ErrorSection(props: ErrorProps) {
   return (
     <section className="errorWrapper">
-      <p>Erro fetching the data: {props.message}</p>
+      <p>Error fetching the data: {props.message}</p>
     </section>
   );
 }

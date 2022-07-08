@@ -1,25 +1,22 @@
-.infoWrapper {
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
+.titleWrapper  {
+    background-color: #455a64;
+    box-shadow: 0px 4px 4px -2px #42555f;
+    color: white;
+    width: 100vw;
 }
 
 .temperature-info {
-    font-size: 6rem;
+    font-size: 8rem;
     margin: 0;
     padding: 0;
     font-weight: bold;
-   
 }
 
 .icon {
     height: 6rem;
-    
 }
 
 .hoursContainer {
-    
-  
     margin-bottom: 3rem;
 }
 
@@ -27,8 +24,11 @@
     display: flex;
     justify-content: space-evenly;
     font-size: 1.5rem; 
-    width: 800px;
 }
+
+.errorWrapper {
+    font-size: 1.5rem;
+  }
 
 @media only screen and (max-width: 600px) {
     .hoursSun {
@@ -38,11 +38,4 @@
     .temperature-info {
         font-size: 5rem;
     }
-}
-
-@media only screen and (max-width: 850px) {
-    .hoursSun {
-        width: 80vw;
-    }
-
 }

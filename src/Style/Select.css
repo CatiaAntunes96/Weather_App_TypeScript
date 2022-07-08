@@ -1,6 +1,4 @@
 /* reset and remove inherited styles */
-
-
 select {
     appearance: none;
     background-color: transparent;
@@ -13,9 +11,7 @@ select {
     cursor: inherit;
     line-height: inherit;
     outline: none;
-  
 }
-
 
 .selectItems:hover {
   background: #C7C7C7;
@@ -28,7 +24,6 @@ select:focus>option:checked {
   background: #C7C7C7;
  
 }
-
 
 .selectWrapper {
   max-width: 25%;

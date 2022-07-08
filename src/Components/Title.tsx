@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../Style/Title.css";
+import "../Style/InfoSection.css";
 
 type TitleProps = {
   title: string;
